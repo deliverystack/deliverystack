@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Deliverystack.Core\Deliverystack.Core.csproj" />
+    <ProjectReference Include="..\Deliverystack.Html\Deliverystack.Html.csproj" />
+    <ProjectReference Include="..\Deliverystack.Interfaces\Deliverystack.Interfaces.csproj" />
+    <ProjectReference Include="..\Deliverystack.Models\Deliverystack.Models.csproj" />
+  </ItemGroup>
+
+</Project>
